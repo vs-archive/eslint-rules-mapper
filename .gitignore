@@ -1,0 +1,15 @@
+.idea/
+.DS_Store
+.sass-cache/
+node_modules/
+logs
+newrelic_agent.log
+pre-commit
+npm-debug.log
+
+coverage
+config.codekit
+
+dump*
+migrations/.migrate
+mj.web/public/index.html
