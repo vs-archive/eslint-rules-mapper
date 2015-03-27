@@ -1,2 +1,7 @@
 # eslint-rules-mapper
-converts .jshintrc to eslint configuration
+
+Converts .jshintrc files to eslint configuration
+
+```sh
+node index ./path/to/.jshintrc | ./.eslintrc
+```
