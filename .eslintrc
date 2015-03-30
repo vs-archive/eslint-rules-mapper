@@ -1,7 +1,7 @@
 {
   "env": {
     "browser": 2,
-    "node": 2,
+    "node": true,
     "mocha": 2
   },
   "globals": {
@@ -15,7 +15,7 @@
     "no-comma-dangle": 2,
     // except-parens, always
     "no-cond-assign": [2, "always"],
-    "no-console": 2,
+    "no-console": 0,
     "no-constant-condition": 2,
     "no-control-regex": 2,
     "no-debugger": 2,
@@ -108,8 +108,8 @@
     "no-mixed-requires": [1, 2],
     "no-new-require": 2,
     "no-path-concat": 2,
-    "no-process-exit": 2,
-    "no-sync": 2,
+    "no-process-exit": 0,
+    "no-sync": 0,
 
     // Stylistic Issues
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],

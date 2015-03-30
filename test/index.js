@@ -1,5 +1,5 @@
 /*eslint no-console:0, no-inline-comments:0, max-statements:0*/
-var map = require('./lib/jshint').map;
+var map = require('../lib/jshint').map;
 
 var jshintRules = {
   bitwise: true,      // Prohibits the use of bitwise operators such as ^ (XOR), | (OR)

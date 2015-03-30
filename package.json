@@ -1,10 +1,10 @@
 {
   "name": "eslint-rules-mapper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "map jshint or jscs rules configs to eslint",
   "main": "app.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
