@@ -28,9 +28,11 @@ console.log = function noop() {};
 // Convert to eslint json
 var eslintResult = map(jshintRules);
 var eslintEnv = eslintResult.env;
-var eslintRules = sortObject(_.omit(eslintResult, 'env'));
+var eslintGlobals = eslintResult.globals || {};
+var eslintRules = sortObject(_.omit(eslintResult, 'env', 'globals'));
 var eslintJson = {
   env: eslintEnv,
+  globals: eslintGlobals,
   rules: eslintRules
 };
 
