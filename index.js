@@ -1,5 +1,6 @@
 var fs = require('fs');
 var _ = require('lodash');
+var stripJsonComments = require('strip-json-comments');
 var map = require('./lib/jshint').map;
 
 // Parse file path to jshintrc file
@@ -20,7 +21,7 @@ if (!fs.existsSync(jshintFilePath)) {
 
 // Read jshintrc file
 var jshintContents = fs.readFileSync(jshintFilePath);
-var jshintRules = JSON.parse(jshintContents);
+var jshintRules = JSON.parse(stripJsonComments(jshintContents));
 
 // Disable console.log statements before running this, to ensure we can pipe results only
 console.log = function noop() {};

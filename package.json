@@ -2,7 +2,7 @@
   "name": "eslint-rules-mapper",
   "version": "0.1.0",
   "description": "map jshint or jscs rules configs to eslint",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "node test"
   },
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/valorkin/eslint-rules-mapper",
   "dependencies": {
     "eslint": "^0.22.0",
-    "lodash": "^3.9.0"
+    "lodash": "^3.9.0",
+    "strip-json-comments": "^1.0.2"
   }
 }
