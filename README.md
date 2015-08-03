@@ -5,5 +5,5 @@
 Converts .jshintrc files to eslint configuration
 
 ```sh
-node index ./path/to/.jshintrc | ./.eslintrc
+node index ./path/to/.jshintrc > ./.eslintrc
 ```
