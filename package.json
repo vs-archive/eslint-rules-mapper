@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test"
   },
+  "bin": {
+    "eslint-rules-mapper": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:valorkin/eslint-rules-mapper.git"
