@@ -5,5 +5,7 @@
 Converts .jshintrc files to eslint configuration
 
 ```sh
-node index ./path/to/.jshintrc > ./.eslintrc
+npm install -g eslint-rules-mapper
+
+eslint-rules-mapper ./path/to/.jshintrc > ./.eslintrc
 ```
